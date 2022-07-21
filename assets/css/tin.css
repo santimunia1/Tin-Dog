@@ -1,0 +1,180 @@
+body{
+    font-family:"montserrat",sans-serif;
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
+.h1
+.container-fluid{
+    padding: 7% 15%;
+}
+.colored-section{
+    background-color: #ff4c4f;
+    color: #ffff;
+
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:"ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300; }
+
+    /* download button */
+    .download-btn{
+        margin: 5% 3% 5% 0;
+    }
+
+/* title-section */
+.title-section .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+    position:relative ;
+
+}
+ /* features section */
+
+ .feature-box{
+    padding: 5%;
+    
+ }
+ .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+ }
+ .icon:hover{
+   color:  #ff4668
+
+ }
+ .img{
+    width: 22%;
+    position: absolute;
+    right: 30%;
+    /* display: block; */
+    transform: rotate(25deg);
+    top: 30%
+    
+ }
+ .features{
+    position: relative;
+ }
+ .white-section{
+    background-color: white;
+
+ }
+
+ 
+    
+    
+ @media screen and (max-width:61.938rem){
+
+   .title-section .img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    
+    }
+
+   .title-section .title-heading{
+    text-align: center;
+
+   }
+    
+
+    }   
+    
+        
+    
+    /* testimonial section */
+    .testimonials{
+        background-color: #ef8172;
+        color: white;
+    }
+   .testimonial-text{
+    line-height: 1.5;
+    font-size: 3rem;
+   }
+   .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 20px auto;
+   }
+   
+   
+   .help1{
+    width: 80%;
+    margin: auto;
+    word-spacing: 50px;
+   }
+   .help{
+    width: 18%;
+    padding-bottom: 50px;
+   }
+   /* medium screen */
+   @media screen and (max-width:31.25rem) {
+    
+   }
+   /* pricing section  */
+   .pricing{
+    padding: 100px;
+   }
+   .pricing .pricing-column{
+    padding: 3% 2%;
+   }
+   .pricing .card-body{display: flex;
+    
+    flex-direction: column;
+    height: 100%;
+   }
+   .pricing .card .d-grid{
+    margin-top: auto;
+
+   }
+   .pricing .card{
+    transform: scale(1,1);
+    transition: all 0.4s ease ;
+    transform-origin: top;
+   }
+   .pricing .card:hover{
+    transform: scale(1.1 ,1);
+    background-color: #ff4668;
+    color: white
+   }
+   .colored-sec{
+    height: 300px;
+    background-color: #ff4668;
+
+    padding-top: 70px;
+
+   }
+   .colored-sec-text{
+    color: white; 
+    padding-bottom: 40px;
+    text-shadow: 2px 1px black;
+    white-space: wrap;
+    
+    
+
+
+   }
+   .social-handle{
+    display: inline-flex;
+    padding-top: 75px;
+    letter-spacing: 20px;
+    height: 130px;
+   }
+   .social-handle2{
+    height: 170px;
+   }
+   
+   
